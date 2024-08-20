@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
-import {Header} from "./MyComponents/Header";
-import {Footer} from "./MyComponents/Footer";
-import {Todos} from "./MyComponents/Todos";
+import { Greet } from './MyComponents/Greet';
+import {Welcome} from './MyComponents/Welcome'
+import {Hello} from './MyComponents/Hello';
 function App() {
   return (
     <>
-    <Header title="To-do List" searchBar = {false}/>
-    <Todos/>
-    <Footer/>
+    <Greet name="Amber" />
+    <Welcome name = "Tripathi"/>
+    <Hello name="Amber Bhai" last="Tripathi" standard="10"/>
     </>
+    
   );
 }
 

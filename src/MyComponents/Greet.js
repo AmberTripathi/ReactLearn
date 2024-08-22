@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Greet = (props) => {
+export const Greet = ({name,heroName}) => {
+    //or you can destructure using 
+    //const {name,heroName} = props
   return (
-    <h3>Greetings, <h1>{props.name}</h1></h3>
+    <h3>Greetings, <h1>{name}the {heroName}</h1></h3>
   )
 }

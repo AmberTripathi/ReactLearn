@@ -18,7 +18,7 @@ export function ListIterating() {
       skills: "Booba",
     },
   ];
-  const personList = persons.map( person => <Persons person = {person} />)
+  const personList = persons.map( person => <Persons key={person.id} personData = {person} />)
   return (
   <div>{personList}</div>
 )

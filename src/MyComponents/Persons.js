@@ -1,10 +1,10 @@
 import React from "react";
 
-export function Persons({person}) {
+export function Persons({personData}) {
   return (
     <div>
       <h1>
-        My name is {person.name} and i know {person.skills}
+        My name is {personData.name} and i know {personData.skills}
       </h1>
     </div>
   );

@@ -11,7 +11,7 @@ import {EventBind} from "./MyComponents/EventBind";
 import {ParentComponent} from "./MyComponents/ParentComponent";
 import {UserGreet} from "./MyComponents/UserGreet";
 import {ListIterating} from "./MyComponents/ListIterating";
-
+import {StyleSheet} from "./MyComponents/StyleSheet"
 function App() {
   return (
     <>
@@ -25,7 +25,9 @@ function App() {
     {/* <EventBind /> */}
     {/* <ParentComponent/> */}
     {/* <UserGreet/> */}
-    <ListIterating/>  </>
+    {/* <ListIterating/>  </> */}
+    <StyleSheet primary = {false}/>
+    </>
   );
 }
 

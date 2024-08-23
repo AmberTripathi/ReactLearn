@@ -1,5 +1,5 @@
 import React from 'react'
-const heading = {
+let heading = {
     fontSize: "72px",
     color: "violet"
 };

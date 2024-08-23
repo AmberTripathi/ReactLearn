@@ -12,6 +12,9 @@ import {ParentComponent} from "./MyComponents/ParentComponent";
 import {UserGreet} from "./MyComponents/UserGreet";
 import {ListIterating} from "./MyComponents/ListIterating";
 import {StyleSheet} from "./MyComponents/StyleSheet"
+import {InlineStyle} from "./MyComponents/InlineStyle";
+import styles from "./MyComponents/appStyles.module.css"
+import {NewForm} from "./MyComponents/NewForm";
 function App() {
   return (
     <>
@@ -26,7 +29,12 @@ function App() {
     {/* <ParentComponent/> */}
     {/* <UserGreet/> */}
     {/* <ListIterating/>  </> */}
-    <StyleSheet primary = {false}/>
+    {/* <StyleSheet primary = {false}/>
+    <InlineStyle/>
+    <h1 className = "error">Error</h1>
+    better way to use css in react is to make xyz.module.css
+    <span className = {styles.success}>Success</span> */}
+    <NewForm />
     </>
   );
 }

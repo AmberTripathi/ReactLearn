@@ -15,6 +15,9 @@ import {StyleSheet} from "./MyComponents/StyleSheet"
 import {InlineStyle} from "./MyComponents/InlineStyle";
 import styles from "./MyComponents/appStyles.module.css"
 import {NewForm} from "./MyComponents/NewForm";
+import {FragmentDemo} from "./MyComponents/FragmentDemo";
+import {Table} from "./MyComponents/Table";
+
 function App() {
   return (
     <>
@@ -34,7 +37,9 @@ function App() {
     <h1 className = "error">Error</h1>
     better way to use css in react is to make xyz.module.css
     <span className = {styles.success}>Success</span> */}
-    <NewForm />
+    {/* <NewForm /> */}
+    {/* <FragmentDemo /> */}
+    <Table />
     </>
   );
 }

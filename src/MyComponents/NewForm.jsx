@@ -32,7 +32,7 @@ export class NewForm extends Component {
     //logged as an object
     console.log(this.state);
     alert(
-      `${this.state.username} ${this.state.comments} ${this.state.gender} ${this.state.option}`
+      `${this.state.username} ${this.state.comments} ${this.state.option} ${this.state.gender}`
     );
   };
   render() {

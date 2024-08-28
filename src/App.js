@@ -18,6 +18,9 @@ import {NewForm} from "./MyComponents/NewForm";
 import {FragmentDemo} from "./MyComponents/FragmentDemo";
 import {Table} from "./MyComponents/Table";
 import {MemosParent} from "./MyComponents/MemosParent";
+import {RefsDemo} from "./MyComponents/RefsDemo";
+import {ClassRefDemo} from "./MyComponents/ClassRefDemo";
+import{PortalDemo} from "./MyComponents/PortalDemo";
 function App() {
   return (
     <>
@@ -40,7 +43,10 @@ function App() {
     {/* <NewForm /> */}
     {/* <FragmentDemo /> */}
     {/* <Table /> */}
-    <MemosParent />
+    {/* <MemosParent /> */}
+    {/* <RefsDemo /> */}
+    <ClassRefDemo />
+    <PortalDemo />
     </>
   );
 }

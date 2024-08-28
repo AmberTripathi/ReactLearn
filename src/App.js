@@ -17,7 +17,7 @@ import styles from "./MyComponents/appStyles.module.css"
 import {NewForm} from "./MyComponents/NewForm";
 import {FragmentDemo} from "./MyComponents/FragmentDemo";
 import {Table} from "./MyComponents/Table";
-
+import {MemosParent} from "./MyComponents/MemosParent";
 function App() {
   return (
     <>
@@ -39,7 +39,8 @@ function App() {
     <span className = {styles.success}>Success</span> */}
     {/* <NewForm /> */}
     {/* <FragmentDemo /> */}
-    <Table />
+    {/* <Table /> */}
+    <MemosParent />
     </>
   );
 }

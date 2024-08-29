@@ -21,6 +21,10 @@ import {MemosParent} from "./MyComponents/MemosParent";
 import {RefsDemo} from "./MyComponents/RefsDemo";
 import {ClassRefDemo} from "./MyComponents/ClassRefDemo";
 import{PortalDemo} from "./MyComponents/PortalDemo";
+import {Hero} from "./MyComponents/Hero";
+import {ErrorBoundary} from "./MyComponents/ErrorBoundary";
+import {ComponentA} from "./MyComponents/ComponentA";
+import {UserProvider} from "./MyComponents/userContext";
 function App() {
   return (
     <>
@@ -45,8 +49,15 @@ function App() {
     {/* <Table /> */}
     {/* <MemosParent /> */}
     {/* <RefsDemo /> */}
-    <ClassRefDemo />
-    <PortalDemo />
+    {/* <ClassRefDemo />
+    <PortalDemo /> */}
+    {/* <ErrorBoundary>
+    <Hero heroName="LionSlayer"/>
+    <Hero heroName="Joker"/>
+    </ErrorBoundary> */}
+    <UserProvider value='Amber' >
+    <ComponentA />
+    </UserProvider>
     </>
   );
 }
